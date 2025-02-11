@@ -13,7 +13,7 @@ Fraud detection remains a challenging task due to the complex and deceptive natu
 ## Installation
 To run the code, Pytorch and DGL need to be installed.  Details in `ragformer.yml` and `ragformer_requirements.txt`. All models are trained on  NVIDIA GeForce RTX 3090 GPUs. ( Our environment : python=3.8.13, pytorch=1.12.1, dgl==1.1.2+cu116)
 
-Two public datasets YelpChi and Amazon will be downloaded automatically by DGL. Alternatively, you can download both datasets from [Github](https://github.com/YingtongDou/CARE-GNN).
+Two public datasets YelpChi and Amazon will be downloaded automatically by DGL. Alternatively, you can download both datasets from [CARE-GNN](https://github.com/YingtongDou/CARE-GNN).
 Please change the raw_dir/base_dir in dataset_split.py, data_utils.py, graph2seq_mp.py and main_ragformer.py to your own path.
 
 ## Usage
